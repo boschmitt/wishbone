@@ -34,7 +34,7 @@ Tri-States buffers a switch logic based on multiplexers was implemented.
     The facts that this is a single MASTER implementation and SLAVES may not use the bus when not addressed, the
 only care that must be taken it to not overlap the SLAVES memory maps.
 
-* ** Partial address decoding **
+* **Partial address decoding**
 
     Each slave present in the bus has a corresponding entry in the memory map. Each of this entries consists of a base
     address (BASEADDR) and a size (SIZE). The SIZE corresponds to the effective number of addresses occupied by the
